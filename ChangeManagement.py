@@ -77,15 +77,15 @@ multiinvoice_select = ['Yes', 'No']
 
 
 country_selected = st.selectbox("Select a SubProject Name",SubProjectName)
-state_selected = st.selectbox("Select a Labour Class:", labourclass)
+labour_selected = st.selectbox("Select a Labour Class:", labourclass)
 multiinvoice = st.selectbox("Select a Multi Invoice:", multiinvoice_select)
 
 
 
 if st.button('Submit Request'):
-    if (labourclass == 'PM'):
+    if (labour_selected == 'PM'):
         st.write('29.4 hrs')
-    if (labourclass == 'Tech'):
+    if (labour_selected == 'Tech'):
         st.write('25.2 hrs') 
     
 else:
