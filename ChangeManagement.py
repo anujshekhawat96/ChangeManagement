@@ -8,8 +8,7 @@ import pandas_datareader as data
 
 import streamlit as st
 
-from st_aggrid import AgGrid
-from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
+
 
 
 import pandas as pd
