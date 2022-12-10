@@ -26,7 +26,7 @@ from PIL import Image
 
 #st.image(image, caption='Sunrise by the mountains')
 from PIL import Image
-image = Image.open('logo.png')
+image = Image.open('logo1.jpg')
 
 def state_data():
     city_list = ['Delhi', 'Mumbai', 'Kolkata', 'Chennai']
@@ -76,7 +76,7 @@ SubProjectName=['Audit','ICS 300','ICS 100','Create/Update Plan','ICS Online','I
 multiinvoice_select = ['Yes', 'No']
 
 
-country_selected = st.selectbox("Select a SubProject Name",SubProjectName)
+country_selected = st.selectbox("Select a SubProject Name:",SubProjectName)
 labour_selected = st.selectbox("Select a Labour Class:", labourclass)
 multiinvoice = st.selectbox("Select a Multi Invoice:", multiinvoice_select)
 
