@@ -53,16 +53,22 @@ country_selected = st.selectbox("Select a SubProject Name:",SubProjectName)
 labour_selected = st.selectbox("Select a Labour Class:", labourclass)
 multiinvoice = st.selectbox("Select a Multi Invoice:", multiinvoice_select)
 
+import time
+
 
 
 if st.button('Submit Request'):
     if (labour_selected == 'PM'):
+        time.sleep(3)
         st.write('29.4 hrs')
     if (labour_selected == 'Tech'):
+        time.sleep(5)
         st.write('25.2 hrs') 
     if (labour_selected == 'Engineering'):
         st.write('Not Available')
+        st.button("Please Submit Relevant Records")
     if (labour_selected == 'Training'):
-        st.write('Not Available')      
+        st.write('Not Available')
+        st.button("Please Submit Relevant Records")      
 else:
     st.write('')
