@@ -60,7 +60,7 @@ import time
 if st.button('Submit Request'):
     if (labour_selected == 'PM'):
         time.sleep(2)
-        st.write('29.4 hrs')
+        st.write('11.9 hrs')
     if (labour_selected == 'Tech'):
         time.sleep(2)
         st.write('25.2 hrs') 
