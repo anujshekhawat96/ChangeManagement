@@ -59,15 +59,17 @@ import time
 
 if st.button('Submit Request'):
     if (labour_selected == 'PM'):
-        time.sleep(3)
+        time.sleep(2)
         st.write('29.4 hrs')
     if (labour_selected == 'Tech'):
-        time.sleep(5)
+        time.sleep(2)
         st.write('25.2 hrs') 
     if (labour_selected == 'Engineering'):
+        time.sleep(2)
         st.write('Not Available')
         st.button("Please Submit Relevant Records")
     if (labour_selected == 'Training'):
+        time.sleep(2)
         st.write('Not Available')
         st.button("Please Submit Relevant Records")      
 else:
