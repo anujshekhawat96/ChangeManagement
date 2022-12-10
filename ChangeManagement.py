@@ -87,6 +87,7 @@ if st.button('Submit Request'):
         st.write('29.4 hrs')
     if (labour_selected == 'Tech'):
         st.write('25.2 hrs') 
-    
+    else:
+        st.write('Not Available')
 else:
-    st.write('Not Available')
+    st.write('')
