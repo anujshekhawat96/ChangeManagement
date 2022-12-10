@@ -63,7 +63,8 @@ def state_data():
 ############################
 from PIL import Image
 
-
+from PIL import Image
+image = Image.open('logo1.jpg')
 
 st.header("Team Bremner")
 st.subheader("Find the Right Hours")
